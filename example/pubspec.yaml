@@ -1,7 +1,7 @@
 name: example
 description: Example for flutter_keyboard_size package
 
-version: 1.0.0+1
+version: 1.0.0
 
 environment:
   sdk: ">=2.1.0 <3.0.0"
@@ -11,8 +11,6 @@ dependencies:
     sdk: flutter
   flutter_keyboard_size:
     path: ../
-
-  cupertino_icons: ^0.1.2
 
 dev_dependencies:
   flutter_test:
