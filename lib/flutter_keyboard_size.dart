@@ -2,8 +2,10 @@ library flutter_keyboard_size;
 
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
+import 'screen_height.dart';
 
 export 'package:provider/provider.dart';
+export 'screen_height.dart';
 
 class KeyboardSizeProvider extends StatefulWidget {
   final Widget child;
@@ -27,22 +29,5 @@ class _KeyboardSizeProviderState extends State<KeyboardSizeProvider> {
     _screenHeight.change(MediaQuery.of(context).viewInsets.bottom);
     return ChangeNotifierProvider.value(
         value: _screenHeight, child: widget.child);
-  }
-}
-
-class ScreenHeight extends ChangeNotifier {
-  ScreenHeight({@required this.initialHeight, @required this.smallSize})
-      : assert(initialHeight != null);
-
-  double keyboardHeight = 0;
-  double initialHeight;
-  double smallSize;
-  bool get isSmall => (initialHeight - keyboardHeight) < smallSize;
-  bool get isOpen => keyboardHeight > 1;
-  double get screenHeight => initialHeight;
-
-  void change(double a) {
-    keyboardHeight = a;
-    notifyListeners();
   }
 }

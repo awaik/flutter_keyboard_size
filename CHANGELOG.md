@@ -1,3 +1,7 @@
+## 0.1.2
+
+- Change location ScreenHeight class for export compatibility
+
 ## 0.1.1+2
 
 - Improve read.me
