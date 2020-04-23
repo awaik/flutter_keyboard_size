@@ -1,3 +1,7 @@
+## 0.1.1+2
+
+- Improve read.me
+
 ## 0.1.1+1
 
 - Update docs
