@@ -6,7 +6,7 @@ BUT, in case of complicated widgets tree, it doesn't work. So, every time we hav
 
 This package is the simple but useful provider that gives all info about keyboard in one place in any widget down the tree.
 
-![Showcase|100x100, 10%](animated_example_screen.gif)
+![Showcase|100x100, 10%](example/lib/animated_example_screen.gif)
 
 ## Usage
 

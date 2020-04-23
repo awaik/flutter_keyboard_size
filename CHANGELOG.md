@@ -1,3 +1,8 @@
+## 0.1.1+1
+
+- Update docs
+
+
 ## 0.1.1 - Initial release
 
 Available key properties for getting info
