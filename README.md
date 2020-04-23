@@ -15,6 +15,7 @@ After installing wrap Scaffold widget to
 ```dart
 KeyboardSizeProvider(
       smallSize: 500.0,
+      child: Scaffold(
 
 ```
 where `smallSize` property is optional, default is 400.0
