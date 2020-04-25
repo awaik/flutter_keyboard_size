@@ -1,3 +1,7 @@
+## 0.1.2+2
+
+- Add license
+
 ## 0.1.2+1
 
 - Update docs
