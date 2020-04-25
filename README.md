@@ -4,7 +4,7 @@ When the virtual keyboard is opened, we can get its height with MediaQuery.of(co
 
 BUT, in case of complicated widgets tree, it doesn't work. So, every time we have to mutate the keyboard size down to the widget tree.
 
-This package is the simple but useful provider that gives all info about keyboard in one place in any widget down the tree.
+This package is a straightforward and convenient provider that helps get info about: keyboard height, is it open or not, set bool value is screen small or not.
 
 ![Showcase|100x100, 10%](example/lib/animated_example_screen.gif)
 
