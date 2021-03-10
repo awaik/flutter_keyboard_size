@@ -1,6 +1,6 @@
 name: flutter_keyboard_size
 description: A straightforward and convenient provider that helps get info about - keyboard height, is it open or not, set bool value is screen small or not.
-version: 1.0.0+1
+version: 1.0.0+2
 homepage: https://github.com/awaik/flutter_keyboard_size
 
 environment:
