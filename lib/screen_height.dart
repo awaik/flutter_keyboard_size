@@ -1,8 +1,7 @@
 import 'package:flutter/foundation.dart';
 
 class ScreenHeight extends ChangeNotifier {
-  ScreenHeight({@required this.initialHeight, @required this.smallSize})
-      : assert(initialHeight != null);
+  ScreenHeight({this.initialHeight = 0, this.smallSize = 500});
 
   double keyboardHeight = 0;
   double initialHeight;

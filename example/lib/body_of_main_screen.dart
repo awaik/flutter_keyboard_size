@@ -30,7 +30,7 @@ class BodyOfMainScreen extends StatelessWidget {
                 '${_res.isOpen}',
                 style: TextStyle(
                   fontSize: _res.isSmall ? 18.0 : 30.0,
-                  color: _res.isSmall ? Colors.green[700] : Colors.red[800],
+                  color: _res.isOpen ? Colors.green[700] : Colors.red[800],
                   fontWeight:
                       _res.isSmall ? FontWeight.bold : FontWeight.normal,
                 ),
@@ -45,7 +45,7 @@ class BodyOfMainScreen extends StatelessWidget {
                 '${_res.keyboardHeight}',
                 style: TextStyle(
                   fontSize: _res.isSmall ? 18.0 : 30.0,
-                  color: _res.isSmall ? Colors.green[700] : Colors.red[800],
+                  color: _res.isOpen ? Colors.green[700] : Colors.red[800],
                   fontWeight:
                       _res.isSmall ? FontWeight.bold : FontWeight.normal,
                 ),
@@ -60,7 +60,7 @@ class BodyOfMainScreen extends StatelessWidget {
                 '${_res.screenHeight}',
                 style: TextStyle(
                   fontSize: _res.isSmall ? 18.0 : 30.0,
-                  color: _res.isSmall ? Colors.green[700] : Colors.red[800],
+                  color: _res.isOpen ? Colors.green[700] : Colors.red[800],
                   fontWeight:
                       _res.isSmall ? FontWeight.bold : FontWeight.normal,
                 ),
