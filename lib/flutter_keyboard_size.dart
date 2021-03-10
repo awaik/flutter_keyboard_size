@@ -9,6 +9,7 @@ export 'screen_height.dart';
 
 class KeyboardSizeProvider extends StatelessWidget {
   final Widget child;
+
   /// set the size of small screens
   final double smallSize;
 
