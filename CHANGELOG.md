@@ -1,3 +1,7 @@
+## [1.0.0+4] - 10.09.2021
+
+* Updated dependencies
+
 ## [1.0.0+3] - 11.03.2021
 
 * Update docs
