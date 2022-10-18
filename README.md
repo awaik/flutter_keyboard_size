@@ -40,4 +40,7 @@ available properties:
 
 Full example is here https://github.com/awaik/flutter_keyboard_size/tree/master/example
 
-*Note*: This plugin is under active development, if you have a feature to implement or find bugs, please, add  them here: [issue](https://github.com/awaik/flutter_keyboard_size/issues)
+## Credits
+
+This is a project by [Agoradesk](https://agoradesk.com/), P2P cryptocurrency trading platform.
+Created by the team behind LocalMonero, the biggest and most trusted Monero P2P trading platform.
