@@ -1,3 +1,7 @@
+## [1.0.1] - 18.09.2022
+
+* Updated dependencies
+
 ## [1.0.0+4] - 10.09.2021
 
 * Updated dependencies

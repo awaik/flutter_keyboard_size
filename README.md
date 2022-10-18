@@ -6,7 +6,7 @@ BUT, in case of complicated widgets tree, it doesn't work. So, every time we hav
 
 This package is a straightforward and convenient provider that helps get info about: keyboard height, is it open or not, set bool value is screen small or not.
 
-![Showcase|100x100, 10%](example/lib/animated_example_screen.gif)
+![Showcase|100x100, 10%](example22/lib/animated_example_screen.gif)
 
 ## Usage
 
